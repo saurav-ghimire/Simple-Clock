@@ -1,3 +1,7 @@
+h1,h3,p{
+  margin:0;
+  color: #fafafa;
+}
 #root {
   max-width: 1280px;
   margin: 0 auto;
@@ -39,4 +43,42 @@
 
 .read-the-docs {
   color: #888;
+}
+body{
+  background-color: #14202b;
+}
+/* custom-date */
+.custom-date span{
+  padding: 10px;
+  background: #213547;
+  color: #fff;
+  border-radius: 7px;
+  margin:5px 0;
+  display: inline-block;
+}
+/* date-wrapper */
+.date-wrapper{
+  padding: 20px;
+  background: #14202b;
+  border-radius: 10px;
+}
+
+.clock-title p{
+  margin-top: 10px;
+}
+.custom-date span{
+  width: 100%;
+}
+
+/* custom-date */
+.custom-time span{
+  padding: 10px;
+  background: #213547;
+  color: #fff;
+  border-radius: 7px;
+  margin:5px 0;
+  display: inline-block;
+}
+.custom-time span{
+  width: 100%;
 }

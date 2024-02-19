@@ -19,8 +19,14 @@ function Clock() {
 
 
   return <>
-  <h3>Date : {time.toLocaleDateString()}</h3>
-  <h3>Time {time.toLocaleTimeString()}</h3>
+  <div className="date-wrapper">
+    <div className="custom-date">
+      <h3><span>Date : {time.toLocaleDateString()}</span></h3>
+    </div>
+    <div className="custom-time">
+      <h3><span>Time : {time.toLocaleTimeString()}</span></h3>
+    </div>
+  </div>
   </>;
 }
 
